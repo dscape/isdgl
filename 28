@@ -1,0 +1,7 @@
+ro: 28
+sigma: 10
+beta: 2.667
+dt: 0.01
+maxiters: 50000
+colorscheme: 19
+style: 3

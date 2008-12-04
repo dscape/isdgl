@@ -1,0 +1,116 @@
+BY:
+==
+nunojobpinto[at]gmail[dot]com
+http://nunojob.pt.to
+
+BUILD:
+=====
+- NEEDS gcc
+- NEEDS build-essentials (didn't even know you could get gcc without this until i installed ubuntu)
+- NEEDS opengl enabled pc (get info from opengl.org. You'll need something like 4 packages, some of them are named glutsomething)
+
+MAKE:
+====
+Type make in your console. Yes you need to be in the directory. doh! :P
+
+RUN:
+===
+./isdGFX <configfile>
+
+Files with numbers are sample config files.
+Edit them with your favorite ... editor thingy.
+
+Heres how they look in the inside.
+----------------------------------
+ro: 28
+sigma: 10
+beta: 2.667
+dt: 0.01
+maxiters: 50000
+colorscheme: 15
+style: 3
+----------------------------------
+
+KEYS:
+====
+  SPACE   : Start/Stop 
+  Q       : Quit
+  ESC     : Quit
+  A	  : Increase Rayleigh number by 0.5.
+  Z	  : Decrease Rayleigh number by 0.5.
+  C	  : Change Color Scheme
+  S 	  : Change Style
+  T	  : Changes tranparency value by 0.05;
+  O	  : Allows transparency indexed by sin. Thanks to mik :\ :o Tretas Suckz! 
+  UP      : Look up
+  DOWN    : Look down
+  RIGHT   : Look right
+  LEFT    : Look Left
+  PAGEUP  : Walk foward
+  PAGEDOWN: Walk back 
+
+CONFIG:
+======
+Wont explain all the parameters (check here:http://en.wikipedia.org/wiki/Lorenz_attractor)
+Maxiters is the number of iterations you want to perform. (Go on, read wikipedia.)
+First i had no limit but the malloc was very hard to do then :P
+Probably because im a rookie! :D
+
+If your still interested keep on reading. Keep on:D Crasy person as borat would of said!
+
+COLORSCHEMES:
+============
+AKA the gayness.
+Its possible that more are available at the time your using this. Im always trying new colors :P
+  1:	Blue to Yellow (transformation lasts the same time as the animation)
+  2:	Blue to White (transformation lasts the same time as the animation)
+  3:	Green to White (transformation lasts the same time as the animation)
+  4:	Red to White (transformation lasts the same time as the animation)
+  5:	Black to White (transformation lasts the same time as the animation. copy/paste rocks!:D)
+  6:	Random RED value (as in RGB, RED=rand GREEN=0 BLUE=0)
+  7:	Green to Red (transformation lasts the same time as the animation)
+  8:	Blue to Red (transformation lasts the same time as the animation)
+  9: 	To show that the Pythagorean Theorem can be used to acheive results.
+  10:	Like Yellow?
+  11:	Blue, dark blue. Using sine.
+  12:	Cute followup thingy. Try it :\
+  13:	Blue/Green/sin/whatever.
+  14:	Another followup. Easier on the eyes. Too much green?
+  15:	This application would core dump without the red followup.
+  16:	Cool effect on the color spectrum.
+  17:	Red based cool smooth effect.
+  18:	Same for green.
+  19:	Same for blue.
+  20:	Totally psychedelic crasyness. Need to explain? ALL RANDOM! Just as mom taught you. (I must be really sleepy)
+
+STYLE:
+=====
+For no style, pick a different application.
+  1: Dotted
+  2: Dashed
+  3: Solid
+
+NOT SO FREQUENTLY ASKED QUESTIONS:
+=================================
+This code sucks, why?
+Thats because I made it.
+
+Why are there functions that were not implemented?
+Because I'm lasy. Who cares about errors anyway? :P
+
+You suck!
+That's not realy a question but.. Thanks!
+
+NOTES:
+=====
+If you are crasy and you change something in here, let me know. :)
+Theres no licence in this file. You can do whatever you please with everything except this readme file.
+It's my own. My precious.... I'm serious, get out of my readme file. ITS MINE!
+
+
+---------------------------------------------------------------------------
+Brought to you by the (drunk|stoned|stoned and drunk) members of caos (caos.di.uminho.pt).
+
+That's all folks!
+
+EOF
