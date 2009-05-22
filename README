@@ -7,7 +7,8 @@ BUILD:
 =====
 - NEEDS gcc
 - NEEDS build-essentials (didn't even know you could get gcc without this until i installed ubuntu)
-- NEEDS opengl enabled pc (get info from opengl.org. You'll need something like 4 packages, some of them are named glutsomething)
+- In ubuntu you can:  sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev libX11-dev libXi-dev libXmu-dev
+  Other systems refer to opengl.org
 
 MAKE:
 ====
@@ -51,10 +52,10 @@ KEYS:
 
 CONFIG:
 ======
-Wont explain all the parameters (check here:http://en.wikipedia.org/wiki/Lorenz_attractor)
+Will not explain all the parameters (check here:http://en.wikipedia.org/wiki/Lorenz_attractor)
 Maxiters is the number of iterations you want to perform. (Go on, read wikipedia.)
 First i had no limit but the malloc was very hard to do then :P
-Probably because im a rookie! :D
+Probably because im a rookie! Right Ulisses? :D
 
 If your still interested keep on reading. Keep on:D Crasy person as borat would of said!
 
